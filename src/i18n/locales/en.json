@@ -1,0 +1,314 @@
+{
+  "common": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "create": "Create",
+    "clear": "Clear",
+    "selected": "selected",
+    "viewAll": "View All",
+    "new": "New",
+    "more": "More",
+    "signOut": "Sign Out",
+    "storage": "Storage",
+    "used": "used",
+    "upgradePlan": "Upgrade Plan"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "files": "My Files",
+    "recent": "Recent",
+    "starred": "Starred",
+    "shared": "Shared with me",
+    "trash": "Trash",
+    "settings": "Settings",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account settings and preferences",
+    "profile": {
+      "tab": "Profile",
+      "title": "Profile Information",
+      "description": "Update your personal details and profile photo",
+      "changePhoto": "Change Photo",
+      "photoHint": "JPG, PNG or GIF. Max 2MB.",
+      "fullName": "Full Name",
+      "email": "Email"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "description": "Customize your Cloudly experience",
+      "language": "Language",
+      "theme": "Theme",
+      "darkMode": "Dark mode",
+      "lightMode": "Light mode"
+    },
+    "security": {
+      "tab": "Security",
+      "password": {
+        "title": "Password",
+        "description": "Change your password to keep your account secure",
+        "current": "Current Password",
+        "new": "New Password",
+        "confirm": "Confirm Password",
+        "update": "Update Password"
+      },
+      "twoFactor": {
+        "title": "Two-Factor Authentication",
+        "description": "Add an extra layer of security to your account",
+        "authenticator": "Authenticator App",
+        "notEnabled": "Not enabled",
+        "enabled": "Enabled",
+        "enable": "Enable",
+        "disable": "Disable",
+        "setupTitle": "Set Up Two-Factor Authentication",
+        "setupDescription": "Use an authenticator app to add an extra layer of security",
+        "setupInstructions": "You'll need an authenticator app like Google Authenticator, Authy, or 1Password to scan the QR code.",
+        "generateQR": "Generate QR Code",
+        "verifyDescription": "Scan the QR code with your authenticator app, then enter the 6-digit code to verify.",
+        "manualEntry": "Can't scan? Enter this code manually:",
+        "enterCode": "Enter verification code",
+        "verify": "Verify & Enable",
+        "disableTitle": "Disable Two-Factor Authentication",
+        "disableDescription": "Remove the extra layer of security from your account",
+        "disableWarning": "Disabling two-factor authentication will make your account less secure. You can re-enable it at any time.",
+        "confirmPassword": "Confirm your password",
+        "enterPassword": "Enter your password",
+        "passwordRequired": "Please enter your password",
+        "incorrectPassword": "Incorrect password",
+        "noFactorFound": "No two-factor authentication found",
+        "disableSuccess": "Two-factor authentication disabled successfully",
+        "disableError": "Failed to disable two-factor authentication"
+      },
+      "sessions": {
+        "title": "Active Sessions",
+        "description": "Manage your active sessions",
+        "currentDevice": "Current Device",
+        "thisDevice": "(This device)",
+        "activeNow": "Active now"
+      }
+    },
+    "notifications": {
+      "tab": "Notifications",
+      "email": {
+        "title": "Email Notifications",
+        "description": "Choose what emails you want to receive",
+        "fileShares": "File shares",
+        "fileSharesDesc": "When someone shares a file with you",
+        "comments": "Comments",
+        "commentsDesc": "When someone comments on your files",
+        "storageAlerts": "Storage alerts",
+        "storageAlertsDesc": "When you're running low on storage",
+        "weeklyDigest": "Weekly digest",
+        "weeklyDigestDesc": "A summary of your account activity"
+      }
+    },
+    "billing": {
+      "tab": "Billing",
+      "currentPlan": {
+        "title": "Current Plan",
+        "description": "You're currently on the Free plan",
+        "freePlan": "Free Plan",
+        "freeFeatures": "5 GB storage · Basic features",
+        "upgrade": "Upgrade",
+        "storageUsed": "Storage used",
+        "of": "of"
+      },
+      "upgrade": {
+        "title": "Choose Your Plan",
+        "description": "Unlock more storage and premium features for your workflow",
+        "popular": "Most Popular",
+        "currentPlan": "Current Plan",
+        "current": "Current Plan",
+        "select": "Upgrade Now",
+        "downgrade": "Downgrade",
+        "cancelAnytime": "All plans include a 14-day free trial. Cancel anytime.",
+        "comingSoon": "{{plan}} plan coming soon! We'll notify you when it's available.",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "month": "month",
+        "year": "year",
+        "savePercent": "Save 17%",
+        "compareFeatures": "Compare Features",
+        "feature": "Feature"
+      },
+      "payment": {
+        "title": "Payment Method",
+        "description": "Manage your payment information",
+        "noMethod": "No payment method on file. Add one to upgrade your plan.",
+        "addMethod": "Add Payment Method"
+      }
+    },
+    "admin": {
+      "tab": "Admin",
+      "stripe": {
+        "title": "Stripe Configuration",
+        "description": "Configure your Stripe restricted API key for payment processing",
+        "keyLabel": "Stripe Restricted Key",
+        "keyHint": "Use a restricted key (rk_...) with only the permissions needed for subscriptions",
+        "keyRequired": "Please enter a Stripe key",
+        "invalidKey": "Invalid key format. Must start with 'rk_'",
+        "keyConfigured": "Stripe key is configured and ready for payments",
+        "noKeyConfigured": "No Stripe key configured. Payments are disabled.",
+        "saveKey": "Save Key",
+        "updateKey": "Update Key",
+        "removeKey": "Remove Key",
+        "saveSuccess": "Stripe key saved successfully",
+        "saveError": "Failed to save Stripe key",
+        "removeSuccess": "Stripe key removed successfully",
+        "removeError": "Failed to remove Stripe key"
+      }
+    }
+  },
+  "storage": {
+    "warning": {
+      "title": "Storage Almost Full",
+      "description": "You've used {{percentage}}% of your storage. Consider upgrading for more space.",
+      "criticalTitle": "Storage Critical",
+      "criticalDescription": "You've used {{percentage}}% of your storage. Upgrade now to avoid issues."
+    }
+  },
+  "files": {
+    "title": "My Files",
+    "upload": "Upload",
+    "uploadFiles": "Upload Files",
+    "newFolder": "New Folder",
+    "createFolder": "Create New Folder",
+    "folderName": "Folder Name",
+    "folderPlaceholder": "Enter folder name",
+    "empty": "No files yet",
+    "emptyHint": "Upload files or create a folder to get started",
+    "sortBy": "Sort by",
+    "name": "Name",
+    "modified": "Modified",
+    "size": "Size",
+    "type": "Type",
+    "deleted": "Deleted",
+    "actions": {
+      "open": "Open",
+      "preview": "Preview",
+      "download": "Download",
+      "share": "Share",
+      "rename": "Rename",
+      "star": "Star",
+      "unstar": "Unstar",
+      "delete": "Delete",
+      "restore": "Restore",
+      "permanentDelete": "Delete Permanently"
+    }
+  },
+  "trash": {
+    "title": "Trash",
+    "subtitle": "Deleted files can be restored or permanently deleted",
+    "empty": "Trash is empty",
+    "emptyHint": "Deleted files will appear here",
+    "emptyTrash": "Empty Trash",
+    "emptyTrashConfirm": "Empty Trash?",
+    "emptyTrashWarning": "This will permanently delete all files in the trash. This action cannot be undone."
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "subtitle": "Here's what's happening with your files",
+    "totalFiles": "Total Files",
+    "sharedFiles": "Shared Files",
+    "storageUsed": "Storage Used",
+    "storageUsage": "Storage Usage",
+    "recentFiles": "Recent Files",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "documents": "Documents",
+    "images": "Images",
+    "videos": "Videos",
+    "audio": "Audio",
+    "upgradeStorage": "Upgrade Storage",
+    "activity": {
+      "uploaded": "Uploaded",
+      "shared": "Shared",
+      "createdFolder": "Created folder",
+      "downloaded": "Downloaded"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "Manage users, roles, and view platform analytics",
+    "accessDenied": "Access denied. Admin privileges required.",
+    "statsError": "Failed to load admin statistics",
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users",
+      "settings": "Settings"
+    },
+    "stats": {
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "totalFiles": "Total Files",
+      "storageUsed": "Storage Used",
+      "thisWeek": "this week",
+      "withFiles": "Users with files",
+      "acrossAllUsers": "Across all users",
+      "totalStorage": "Total platform storage",
+      "avgStoragePerUser": "Avg. storage per user"
+    },
+    "charts": {
+      "roleDistribution": "Role Distribution",
+      "roleDescription": "Breakdown of users by role",
+      "quickStats": "Quick Stats",
+      "quickStatsDescription": "Key platform metrics"
+    },
+    "roles": {
+      "admin": "Admin",
+      "moderator": "Moderator",
+      "user": "User"
+    },
+    "users": {
+      "title": "User Management",
+      "description": "View and manage all registered users",
+      "searchPlaceholder": "Search users by name or email...",
+      "usersCount": "users",
+      "user": "User",
+      "status": "Status",
+      "roles": "Roles",
+      "storage": "Storage",
+      "joined": "Joined",
+      "lastActive": "Last Active",
+      "noUsers": "No users found",
+      "noName": "No name",
+      "never": "Never",
+      "active": "Active",
+      "disabled": "Disabled",
+      "manageRoles": "Manage Roles",
+      "addRole": "Add Role",
+      "removeRole": "Remove Role",
+      "roleAdded": "{{role}} role added successfully",
+      "roleRemoved": "{{role}} role removed successfully",
+      "roleError": "Failed to update role",
+      "fetchError": "Failed to fetch users",
+      "manageAccount": "Manage Account",
+      "enableAccount": "Enable Account",
+      "disableAccount": "Disable Account",
+      "deleteAccount": "Delete Account",
+      "deleteSuccess": "User deleted successfully",
+      "disableSuccess": "User disabled successfully",
+      "enableSuccess": "User enabled successfully",
+      "manageError": "Failed to manage user",
+      "deleteConfirmTitle": "Delete User Account?",
+      "deleteConfirmDescription": "This will permanently delete the user account for {{email}} and all their files. This action cannot be undone."
+    }
+  }
+}

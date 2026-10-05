@@ -1,0 +1,314 @@
+{
+  "common": {
+    "save": "Guardar cambios",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "create": "Crear",
+    "clear": "Limpiar",
+    "selected": "seleccionados",
+    "viewAll": "Ver todo",
+    "new": "Nuevo",
+    "more": "Más",
+    "signOut": "Cerrar sesión",
+    "storage": "Almacenamiento",
+    "used": "usado",
+    "upgradePlan": "Mejorar plan"
+  },
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "files": "Mis archivos",
+    "recent": "Recientes",
+    "starred": "Destacados",
+    "shared": "Compartidos conmigo",
+    "trash": "Papelera",
+    "settings": "Configuración",
+    "admin": "Admin",
+    "logout": "Cerrar sesión"
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Administra la configuración de tu cuenta y preferencias",
+    "profile": {
+      "tab": "Perfil",
+      "title": "Información del perfil",
+      "description": "Actualiza tus datos personales y foto de perfil",
+      "changePhoto": "Cambiar foto",
+      "photoHint": "JPG, PNG o GIF. Máx 2MB.",
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "description": "Personaliza tu experiencia en Cloudly",
+      "language": "Idioma",
+      "theme": "Tema",
+      "darkMode": "Modo oscuro",
+      "lightMode": "Modo claro"
+    },
+    "security": {
+      "tab": "Seguridad",
+      "password": {
+        "title": "Contraseña",
+        "description": "Cambia tu contraseña para mantener tu cuenta segura",
+        "current": "Contraseña actual",
+        "new": "Nueva contraseña",
+        "confirm": "Confirmar contraseña",
+        "update": "Actualizar contraseña"
+      },
+      "twoFactor": {
+        "title": "Autenticación de dos factores",
+        "description": "Añade una capa extra de seguridad a tu cuenta",
+        "authenticator": "Aplicación de autenticación",
+        "notEnabled": "No habilitado",
+        "enabled": "Habilitado",
+        "enable": "Habilitar",
+        "disable": "Deshabilitar",
+        "setupTitle": "Configurar autenticación de dos factores",
+        "setupDescription": "Usa una aplicación de autenticación para añadir una capa extra de seguridad",
+        "setupInstructions": "Necesitarás una aplicación de autenticación como Google Authenticator, Authy o 1Password para escanear el código QR.",
+        "generateQR": "Generar código QR",
+        "verifyDescription": "Escanea el código QR con tu aplicación de autenticación, luego ingresa el código de 6 dígitos para verificar.",
+        "manualEntry": "¿No puedes escanear? Ingresa este código manualmente:",
+        "enterCode": "Ingresa el código de verificación",
+        "verify": "Verificar y habilitar",
+        "disableTitle": "Deshabilitar autenticación de dos factores",
+        "disableDescription": "Eliminar la capa extra de seguridad de tu cuenta",
+        "disableWarning": "Deshabilitar la autenticación de dos factores hará que tu cuenta sea menos segura. Puedes volver a habilitarla en cualquier momento.",
+        "confirmPassword": "Confirma tu contraseña",
+        "enterPassword": "Ingresa tu contraseña",
+        "passwordRequired": "Por favor ingresa tu contraseña",
+        "incorrectPassword": "Contraseña incorrecta",
+        "noFactorFound": "No se encontró autenticación de dos factores",
+        "disableSuccess": "Autenticación de dos factores deshabilitada exitosamente",
+        "disableError": "Error al deshabilitar la autenticación de dos factores"
+      },
+      "sessions": {
+        "title": "Sesiones activas",
+        "description": "Administra tus sesiones activas",
+        "currentDevice": "Dispositivo actual",
+        "thisDevice": "(Este dispositivo)",
+        "activeNow": "Activo ahora"
+      }
+    },
+    "notifications": {
+      "tab": "Notificaciones",
+      "email": {
+        "title": "Notificaciones por correo",
+        "description": "Elige qué correos quieres recibir",
+        "fileShares": "Archivos compartidos",
+        "fileSharesDesc": "Cuando alguien comparte un archivo contigo",
+        "comments": "Comentarios",
+        "commentsDesc": "Cuando alguien comenta en tus archivos",
+        "storageAlerts": "Alertas de almacenamiento",
+        "storageAlertsDesc": "Cuando te estás quedando sin espacio",
+        "weeklyDigest": "Resumen semanal",
+        "weeklyDigestDesc": "Un resumen de la actividad de tu cuenta"
+      }
+    },
+    "billing": {
+      "tab": "Facturación",
+      "currentPlan": {
+        "title": "Plan actual",
+        "description": "Actualmente estás en el plan Gratuito",
+        "freePlan": "Plan Gratuito",
+        "freeFeatures": "5 GB de almacenamiento · Funciones básicas",
+        "upgrade": "Mejorar",
+        "storageUsed": "Almacenamiento usado",
+        "of": "de"
+      },
+      "upgrade": {
+        "title": "Elige tu plan",
+        "description": "Desbloquea más almacenamiento y funciones premium para tu flujo de trabajo",
+        "popular": "Más popular",
+        "currentPlan": "Plan actual",
+        "current": "Plan actual",
+        "select": "Actualizar ahora",
+        "downgrade": "Bajar de plan",
+        "cancelAnytime": "Todos los planes incluyen una prueba gratuita de 14 días. Cancela cuando quieras.",
+        "comingSoon": "¡Plan {{plan}} próximamente! Te notificaremos cuando esté disponible.",
+        "monthly": "Mensual",
+        "yearly": "Anual",
+        "month": "mes",
+        "year": "año",
+        "savePercent": "Ahorra 17%",
+        "compareFeatures": "Comparar Características",
+        "feature": "Característica"
+      },
+      "payment": {
+        "title": "Método de pago",
+        "description": "Administra tu información de pago",
+        "noMethod": "No hay método de pago registrado. Añade uno para mejorar tu plan.",
+        "addMethod": "Añadir método de pago"
+      }
+    },
+    "admin": {
+      "tab": "Admin",
+      "stripe": {
+        "title": "Configuración de Stripe",
+        "description": "Configura tu clave API restringida de Stripe para procesar pagos",
+        "keyLabel": "Clave restringida de Stripe",
+        "keyHint": "Usa una clave restringida (rk_...) con solo los permisos necesarios para suscripciones",
+        "keyRequired": "Por favor ingresa una clave de Stripe",
+        "invalidKey": "Formato de clave inválido. Debe comenzar con 'rk_'",
+        "keyConfigured": "La clave de Stripe está configurada y lista para pagos",
+        "noKeyConfigured": "No hay clave de Stripe configurada. Los pagos están deshabilitados.",
+        "saveKey": "Guardar clave",
+        "updateKey": "Actualizar clave",
+        "removeKey": "Eliminar clave",
+        "saveSuccess": "Clave de Stripe guardada exitosamente",
+        "saveError": "Error al guardar la clave de Stripe",
+        "removeSuccess": "Clave de Stripe eliminada exitosamente",
+        "removeError": "Error al eliminar la clave de Stripe"
+      }
+    }
+  },
+  "storage": {
+    "warning": {
+      "title": "Almacenamiento casi lleno",
+      "description": "Has usado el {{percentage}}% de tu almacenamiento. Considera mejorar para más espacio.",
+      "criticalTitle": "Almacenamiento crítico",
+      "criticalDescription": "Has usado el {{percentage}}% de tu almacenamiento. Mejora ahora para evitar problemas."
+    }
+  },
+  "files": {
+    "title": "Mis archivos",
+    "upload": "Subir",
+    "uploadFiles": "Subir archivos",
+    "newFolder": "Nueva carpeta",
+    "createFolder": "Crear nueva carpeta",
+    "folderName": "Nombre de la carpeta",
+    "folderPlaceholder": "Ingresa el nombre de la carpeta",
+    "empty": "Sin archivos aún",
+    "emptyHint": "Sube archivos o crea una carpeta para comenzar",
+    "sortBy": "Ordenar por",
+    "name": "Nombre",
+    "modified": "Modificado",
+    "size": "Tamaño",
+    "type": "Tipo",
+    "deleted": "Eliminado",
+    "actions": {
+      "open": "Abrir",
+      "preview": "Vista previa",
+      "download": "Descargar",
+      "share": "Compartir",
+      "rename": "Renombrar",
+      "star": "Destacar",
+      "unstar": "Quitar destacado",
+      "delete": "Eliminar",
+      "restore": "Restaurar",
+      "permanentDelete": "Eliminar permanentemente"
+    }
+  },
+  "trash": {
+    "title": "Papelera",
+    "subtitle": "Los archivos eliminados se pueden restaurar o eliminar permanentemente",
+    "empty": "La papelera está vacía",
+    "emptyHint": "Los archivos eliminados aparecerán aquí",
+    "emptyTrash": "Vaciar papelera",
+    "emptyTrashConfirm": "¿Vaciar papelera?",
+    "emptyTrashWarning": "Esto eliminará permanentemente todos los archivos en la papelera. Esta acción no se puede deshacer."
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de nuevo",
+    "subtitle": "Esto es lo que está pasando con tus archivos",
+    "totalFiles": "Total de archivos",
+    "sharedFiles": "Archivos compartidos",
+    "storageUsed": "Almacenamiento usado",
+    "storageUsage": "Uso de almacenamiento",
+    "recentFiles": "Archivos recientes",
+    "recentActivity": "Actividad reciente",
+    "quickActions": "Acciones rápidas",
+    "documents": "Documentos",
+    "images": "Imágenes",
+    "videos": "Videos",
+    "audio": "Audio",
+    "upgradeStorage": "Mejorar almacenamiento",
+    "activity": {
+      "uploaded": "Subió",
+      "shared": "Compartió",
+      "createdFolder": "Creó carpeta",
+      "downloaded": "Descargó"
+    }
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?"
+  },
+  "admin": {
+    "title": "Panel de Administración",
+    "subtitle": "Administra usuarios, roles y visualiza análisis de la plataforma",
+    "accessDenied": "Acceso denegado. Se requieren privilegios de administrador.",
+    "statsError": "Error al cargar estadísticas de administrador",
+    "tabs": {
+      "overview": "Resumen",
+      "users": "Usuarios",
+      "settings": "Configuración"
+    },
+    "stats": {
+      "totalUsers": "Total de usuarios",
+      "activeUsers": "Usuarios activos",
+      "totalFiles": "Total de archivos",
+      "storageUsed": "Almacenamiento usado",
+      "thisWeek": "esta semana",
+      "withFiles": "Usuarios con archivos",
+      "acrossAllUsers": "De todos los usuarios",
+      "totalStorage": "Almacenamiento total de la plataforma",
+      "avgStoragePerUser": "Almacenamiento promedio por usuario"
+    },
+    "charts": {
+      "roleDistribution": "Distribución de roles",
+      "roleDescription": "Desglose de usuarios por rol",
+      "quickStats": "Estadísticas rápidas",
+      "quickStatsDescription": "Métricas clave de la plataforma"
+    },
+    "roles": {
+      "admin": "Administrador",
+      "moderator": "Moderador",
+      "user": "Usuario"
+    },
+    "users": {
+      "title": "Gestión de usuarios",
+      "description": "Ver y administrar todos los usuarios registrados",
+      "searchPlaceholder": "Buscar usuarios por nombre o correo...",
+      "usersCount": "usuarios",
+      "user": "Usuario",
+      "status": "Estado",
+      "roles": "Roles",
+      "storage": "Almacenamiento",
+      "joined": "Registrado",
+      "lastActive": "Última actividad",
+      "noUsers": "No se encontraron usuarios",
+      "noName": "Sin nombre",
+      "never": "Nunca",
+      "active": "Activo",
+      "disabled": "Deshabilitado",
+      "manageRoles": "Administrar roles",
+      "addRole": "Añadir rol",
+      "removeRole": "Eliminar rol",
+      "roleAdded": "Rol {{role}} añadido exitosamente",
+      "roleRemoved": "Rol {{role}} eliminado exitosamente",
+      "roleError": "Error al actualizar rol",
+      "fetchError": "Error al cargar usuarios",
+      "manageAccount": "Administrar cuenta",
+      "enableAccount": "Habilitar cuenta",
+      "disableAccount": "Deshabilitar cuenta",
+      "deleteAccount": "Eliminar cuenta",
+      "deleteSuccess": "Usuario eliminado exitosamente",
+      "disableSuccess": "Usuario deshabilitado exitosamente",
+      "enableSuccess": "Usuario habilitado exitosamente",
+      "manageError": "Error al administrar usuario",
+      "deleteConfirmTitle": "¿Eliminar cuenta de usuario?",
+      "deleteConfirmDescription": "Esto eliminará permanentemente la cuenta de {{email}} y todos sus archivos. Esta acción no se puede deshacer."
+    }
+  }
+}

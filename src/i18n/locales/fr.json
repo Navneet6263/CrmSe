@@ -1,0 +1,314 @@
+{
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "create": "Créer",
+    "clear": "Effacer",
+    "selected": "sélectionnés",
+    "viewAll": "Voir tout",
+    "new": "Nouveau",
+    "more": "Plus",
+    "signOut": "Déconnexion",
+    "storage": "Stockage",
+    "used": "utilisé",
+    "upgradePlan": "Améliorer le plan"
+  },
+  "nav": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "files": "Mes fichiers",
+    "recent": "Récents",
+    "starred": "Favoris",
+    "shared": "Partagés avec moi",
+    "trash": "Corbeille",
+    "settings": "Paramètres",
+    "admin": "Admin",
+    "logout": "Déconnexion"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Gérez les paramètres de votre compte et vos préférences",
+    "profile": {
+      "tab": "Profil",
+      "title": "Informations du profil",
+      "description": "Mettez à jour vos informations personnelles et votre photo",
+      "changePhoto": "Changer la photo",
+      "photoHint": "JPG, PNG ou GIF. Max 2 Mo.",
+      "fullName": "Nom complet",
+      "email": "Email"
+    },
+    "preferences": {
+      "title": "Préférences",
+      "description": "Personnalisez votre expérience Cloudly",
+      "language": "Langue",
+      "theme": "Thème",
+      "darkMode": "Mode sombre",
+      "lightMode": "Mode clair"
+    },
+    "security": {
+      "tab": "Sécurité",
+      "password": {
+        "title": "Mot de passe",
+        "description": "Changez votre mot de passe pour sécuriser votre compte",
+        "current": "Mot de passe actuel",
+        "new": "Nouveau mot de passe",
+        "confirm": "Confirmer le mot de passe",
+        "update": "Mettre à jour"
+      },
+      "twoFactor": {
+        "title": "Authentification à deux facteurs",
+        "description": "Ajoutez une couche de sécurité supplémentaire",
+        "authenticator": "Application d'authentification",
+        "notEnabled": "Non activé",
+        "enabled": "Activé",
+        "enable": "Activer",
+        "disable": "Désactiver",
+        "setupTitle": "Configurer l'authentification à deux facteurs",
+        "setupDescription": "Utilisez une application d'authentification pour ajouter une couche de sécurité supplémentaire",
+        "setupInstructions": "Vous aurez besoin d'une application d'authentification comme Google Authenticator, Authy ou 1Password pour scanner le code QR.",
+        "generateQR": "Générer le code QR",
+        "verifyDescription": "Scannez le code QR avec votre application d'authentification, puis entrez le code à 6 chiffres pour vérifier.",
+        "manualEntry": "Impossible de scanner ? Entrez ce code manuellement :",
+        "enterCode": "Entrez le code de vérification",
+        "verify": "Vérifier et activer",
+        "disableTitle": "Désactiver l'authentification à deux facteurs",
+        "disableDescription": "Supprimer la couche de sécurité supplémentaire de votre compte",
+        "disableWarning": "Désactiver l'authentification à deux facteurs rendra votre compte moins sécurisé. Vous pourrez la réactiver à tout moment.",
+        "confirmPassword": "Confirmez votre mot de passe",
+        "enterPassword": "Entrez votre mot de passe",
+        "passwordRequired": "Veuillez entrer votre mot de passe",
+        "incorrectPassword": "Mot de passe incorrect",
+        "noFactorFound": "Aucune authentification à deux facteurs trouvée",
+        "disableSuccess": "Authentification à deux facteurs désactivée avec succès",
+        "disableError": "Échec de la désactivation de l'authentification à deux facteurs"
+      },
+      "sessions": {
+        "title": "Sessions actives",
+        "description": "Gérez vos sessions actives",
+        "currentDevice": "Appareil actuel",
+        "thisDevice": "(Cet appareil)",
+        "activeNow": "Actif maintenant"
+      }
+    },
+    "notifications": {
+      "tab": "Notifications",
+      "email": {
+        "title": "Notifications par email",
+        "description": "Choisissez les emails que vous souhaitez recevoir",
+        "fileShares": "Partages de fichiers",
+        "fileSharesDesc": "Quand quelqu'un partage un fichier avec vous",
+        "comments": "Commentaires",
+        "commentsDesc": "Quand quelqu'un commente vos fichiers",
+        "storageAlerts": "Alertes de stockage",
+        "storageAlertsDesc": "Quand votre espace de stockage est presque plein",
+        "weeklyDigest": "Résumé hebdomadaire",
+        "weeklyDigestDesc": "Un résumé de l'activité de votre compte"
+      }
+    },
+    "billing": {
+      "tab": "Facturation",
+      "currentPlan": {
+        "title": "Plan actuel",
+        "description": "Vous êtes actuellement sur le plan Gratuit",
+        "freePlan": "Plan Gratuit",
+        "freeFeatures": "5 Go de stockage · Fonctionnalités de base",
+        "upgrade": "Améliorer",
+        "storageUsed": "Stockage utilisé",
+        "of": "sur"
+      },
+      "upgrade": {
+        "title": "Choisissez votre plan",
+        "description": "Débloquez plus de stockage et des fonctionnalités premium pour votre travail",
+        "popular": "Le plus populaire",
+        "currentPlan": "Plan actuel",
+        "current": "Plan actuel",
+        "select": "Mettre à niveau",
+        "downgrade": "Rétrograder",
+        "cancelAnytime": "Tous les plans incluent un essai gratuit de 14 jours. Annulez à tout moment.",
+        "comingSoon": "Plan {{plan}} bientôt disponible ! Nous vous notifierons quand il sera disponible.",
+        "monthly": "Mensuel",
+        "yearly": "Annuel",
+        "month": "mois",
+        "year": "an",
+        "savePercent": "Économisez 17%",
+        "compareFeatures": "Comparer les Fonctionnalités",
+        "feature": "Fonctionnalité"
+      },
+      "payment": {
+        "title": "Moyen de paiement",
+        "description": "Gérez vos informations de paiement",
+        "noMethod": "Aucun moyen de paiement enregistré. Ajoutez-en un pour améliorer votre plan.",
+        "addMethod": "Ajouter un moyen de paiement"
+      }
+    },
+    "admin": {
+      "tab": "Admin",
+      "stripe": {
+        "title": "Configuration Stripe",
+        "description": "Configurez votre clé API restreinte Stripe pour le traitement des paiements",
+        "keyLabel": "Clé restreinte Stripe",
+        "keyHint": "Utilisez une clé restreinte (rk_...) avec uniquement les permissions nécessaires aux abonnements",
+        "keyRequired": "Veuillez entrer une clé Stripe",
+        "invalidKey": "Format de clé invalide. Doit commencer par 'rk_'",
+        "keyConfigured": "La clé Stripe est configurée et prête pour les paiements",
+        "noKeyConfigured": "Aucune clé Stripe configurée. Les paiements sont désactivés.",
+        "saveKey": "Enregistrer la clé",
+        "updateKey": "Mettre à jour la clé",
+        "removeKey": "Supprimer la clé",
+        "saveSuccess": "Clé Stripe enregistrée avec succès",
+        "saveError": "Échec de l'enregistrement de la clé Stripe",
+        "removeSuccess": "Clé Stripe supprimée avec succès",
+        "removeError": "Échec de la suppression de la clé Stripe"
+      }
+    }
+  },
+  "storage": {
+    "warning": {
+      "title": "Stockage presque plein",
+      "description": "Vous avez utilisé {{percentage}}% de votre stockage. Pensez à améliorer pour plus d'espace.",
+      "criticalTitle": "Stockage critique",
+      "criticalDescription": "Vous avez utilisé {{percentage}}% de votre stockage. Améliorez maintenant pour éviter les problèmes."
+    }
+  },
+  "files": {
+    "title": "Mes fichiers",
+    "upload": "Télécharger",
+    "uploadFiles": "Télécharger des fichiers",
+    "newFolder": "Nouveau dossier",
+    "createFolder": "Créer un nouveau dossier",
+    "folderName": "Nom du dossier",
+    "folderPlaceholder": "Entrez le nom du dossier",
+    "empty": "Aucun fichier",
+    "emptyHint": "Téléchargez des fichiers ou créez un dossier pour commencer",
+    "sortBy": "Trier par",
+    "name": "Nom",
+    "modified": "Modifié",
+    "size": "Taille",
+    "type": "Type",
+    "deleted": "Supprimé",
+    "actions": {
+      "open": "Ouvrir",
+      "preview": "Aperçu",
+      "download": "Télécharger",
+      "share": "Partager",
+      "rename": "Renommer",
+      "star": "Ajouter aux favoris",
+      "unstar": "Retirer des favoris",
+      "delete": "Supprimer",
+      "restore": "Restaurer",
+      "permanentDelete": "Supprimer définitivement"
+    }
+  },
+  "trash": {
+    "title": "Corbeille",
+    "subtitle": "Les fichiers supprimés peuvent être restaurés ou supprimés définitivement",
+    "empty": "La corbeille est vide",
+    "emptyHint": "Les fichiers supprimés apparaîtront ici",
+    "emptyTrash": "Vider la corbeille",
+    "emptyTrashConfirm": "Vider la corbeille ?",
+    "emptyTrashWarning": "Cela supprimera définitivement tous les fichiers de la corbeille. Cette action ne peut pas être annulée."
+  },
+  "dashboard": {
+    "welcome": "Bon retour",
+    "subtitle": "Voici ce qui se passe avec vos fichiers",
+    "totalFiles": "Total des fichiers",
+    "sharedFiles": "Fichiers partagés",
+    "storageUsed": "Stockage utilisé",
+    "storageUsage": "Utilisation du stockage",
+    "recentFiles": "Fichiers récents",
+    "recentActivity": "Activité récente",
+    "quickActions": "Actions rapides",
+    "documents": "Documents",
+    "images": "Images",
+    "videos": "Vidéos",
+    "audio": "Audio",
+    "upgradeStorage": "Améliorer le stockage",
+    "activity": {
+      "uploaded": "Téléchargé",
+      "shared": "Partagé",
+      "createdFolder": "Dossier créé",
+      "downloaded": "Téléchargé"
+    }
+  },
+  "auth": {
+    "login": "Connexion",
+    "signup": "Inscription",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?"
+  },
+  "admin": {
+    "title": "Tableau de bord Admin",
+    "subtitle": "Gérez les utilisateurs, les rôles et consultez les analyses de la plateforme",
+    "accessDenied": "Accès refusé. Privilèges administrateur requis.",
+    "statsError": "Échec du chargement des statistiques admin",
+    "tabs": {
+      "overview": "Aperçu",
+      "users": "Utilisateurs",
+      "settings": "Paramètres"
+    },
+    "stats": {
+      "totalUsers": "Total utilisateurs",
+      "activeUsers": "Utilisateurs actifs",
+      "totalFiles": "Total fichiers",
+      "storageUsed": "Stockage utilisé",
+      "thisWeek": "cette semaine",
+      "withFiles": "Utilisateurs avec fichiers",
+      "acrossAllUsers": "Tous utilisateurs confondus",
+      "totalStorage": "Stockage total de la plateforme",
+      "avgStoragePerUser": "Stockage moyen par utilisateur"
+    },
+    "charts": {
+      "roleDistribution": "Distribution des rôles",
+      "roleDescription": "Répartition des utilisateurs par rôle",
+      "quickStats": "Stats rapides",
+      "quickStatsDescription": "Métriques clés de la plateforme"
+    },
+    "roles": {
+      "admin": "Administrateur",
+      "moderator": "Modérateur",
+      "user": "Utilisateur"
+    },
+    "users": {
+      "title": "Gestion des utilisateurs",
+      "description": "Voir et gérer tous les utilisateurs inscrits",
+      "searchPlaceholder": "Rechercher par nom ou email...",
+      "usersCount": "utilisateurs",
+      "user": "Utilisateur",
+      "status": "Statut",
+      "roles": "Rôles",
+      "storage": "Stockage",
+      "joined": "Inscrit",
+      "lastActive": "Dernière activité",
+      "noUsers": "Aucun utilisateur trouvé",
+      "noName": "Sans nom",
+      "never": "Jamais",
+      "active": "Actif",
+      "disabled": "Désactivé",
+      "manageRoles": "Gérer les rôles",
+      "addRole": "Ajouter un rôle",
+      "removeRole": "Supprimer un rôle",
+      "roleAdded": "Rôle {{role}} ajouté avec succès",
+      "roleRemoved": "Rôle {{role}} supprimé avec succès",
+      "roleError": "Échec de la mise à jour du rôle",
+      "fetchError": "Échec du chargement des utilisateurs",
+      "manageAccount": "Gérer le compte",
+      "enableAccount": "Activer le compte",
+      "disableAccount": "Désactiver le compte",
+      "deleteAccount": "Supprimer le compte",
+      "deleteSuccess": "Utilisateur supprimé avec succès",
+      "disableSuccess": "Utilisateur désactivé avec succès",
+      "enableSuccess": "Utilisateur activé avec succès",
+      "manageError": "Échec de la gestion de l'utilisateur",
+      "deleteConfirmTitle": "Supprimer le compte utilisateur ?",
+      "deleteConfirmDescription": "Cela supprimera définitivement le compte de {{email}} et tous ses fichiers. Cette action ne peut pas être annulée."
+    }
+  }
+}

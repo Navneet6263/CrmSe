@@ -1,0 +1,12 @@
+- [x] Salon CRM build
+- [x] All app text in English (no Hindi)
+- [x] CRMse identity and local platform marks
+- [x] Editable service catalogue with saved price and duration
+- [x] Custom booking export with selectable and ordered columns
+- [x] Restrained UI polish across CRM pages
+- [x] Responsive interaction verification
+- [x] Customer CRM with history, spend, upcoming visits, and notes
+- [x] Manual multi-service booking, discounts, sources, and appointment actions
+- [x] Service active/inactive availability shared with WhatsApp
+- [x] Complete WhatsApp booking preview with branches, dates, and appointment actions
+- [x] Compact owner metrics and branch performance
